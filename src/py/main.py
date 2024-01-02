@@ -11,7 +11,7 @@ Call the function here to begin creating the following:
     1. Message body
     2. Recipient number
 '''
-current_time_date = datetime.now()
+current_time_date = str(datetime.now())
 body = "Hello, this is Test message! " + current_time_date
 to_number = ""
 
